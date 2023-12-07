@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Page Title</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap'); /* Importing a sample traditional font */
+
         .image-container {
             position: relative;
             width: 100%;
             max-width: 600px; /* Adjust the max-width as needed */
-            margin: 0;
+            margin: auto;
         }
 
         .top_img {
             width: 100%;
             height: auto; /* Maintain image aspect ratio */
+            margin: 0; /* Set margin to 0 */
         }
 
         .overlay-text {
@@ -25,6 +28,8 @@
             color: black;
             font-size: 24px; /* Adjusted font size */
             text-align: center;
+            font-family: 'Shojumaru', cursive; /* Applying the traditional font */
+            font-weight: bold; /* Making the font bold */
         }
 
         @media only screen and (min-width: 600px) {
