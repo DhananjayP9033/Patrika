@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kalam', cursive;
+}
+
+.img1{
+    background-image: url("weeding_img.webp");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    filter: grayscale(70%);
+}
+
+.img2{
+    background-image: url("ganesh.png");
+    width: 20vmax;
+    height: 40vmax;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main_name{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 55vh;
+    width: 100vw;
+    font-size: 3vmax;
+    color: #ffa600;
+}
+
+.main_name h1{
+    text-wrap: nowrap;
+    
+}
+
+audio{
+    width: 100vw;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: rgba(240, 175, 35, 0.363);
+}
+
+.info{
+    padding: 2vw;
+    font-size: 3vmax;
+}
+
+.male_img{
+    background-image: url("male.jpg");
+    width: 40vmax;
+    height: 70vmin;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    border-radius: 2em;
+}
+
+.male_info{
+    padding: 0 2vw 2vw 2vw;
+}
